@@ -64,3 +64,14 @@ body {
 .all-btn:active {
     opacity: .8;
 }
+
+/* headline */
+
+.headline {
+    font-family: var(--Montserrat);
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
