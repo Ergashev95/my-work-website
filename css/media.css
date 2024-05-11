@@ -5,4 +5,8 @@
         --dot-color: #EBEBEB;
         --footer-link: #7177F1;
     }
+
+    .header-logo::after {
+        content: url(../img/MYWORK.svg);
+    }
 }
