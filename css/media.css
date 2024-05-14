@@ -9,4 +9,12 @@
     .header-logo::after {
         content: url(../img/MYWORK.svg);
     }
+
+    .headline {
+        font-size: calc(28 + 12 * (100vw / 320));
+    }
+}
+
+@media only  screen and (min-width: 992px) {
+
 }
