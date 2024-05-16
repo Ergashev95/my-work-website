@@ -324,3 +324,82 @@ body {
 .all-btn {
 }
 /* ABOUT SECTION */
+
+
+/* CAPABILITIES SECTION */
+
+.capabilities {
+    padding-bottom: 80px;
+}
+.capabilities-title {
+    margin-bottom: 30px;
+}
+
+.accordion-content {
+    border-radius: 8px 8px 0px 0px;
+    background: var(--body-color);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    overflow: hidden;
+   
+}
+
+.accordion__button {
+    width: 100%;
+    background-color: transparent;
+    border: unset;
+    border-bottom: 1px solid #DDD;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    position: relative;
+}
+.accordion-icon {
+    position: absolute;
+    right: 30px;
+}
+.accordion__body {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 25px 30px 55px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+ 
+
+}
+
+.accordion__button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.accordion__item:nth-child(1)   .brend-icon {
+    color: #E44F26;
+}
+.accordion__item:nth-child(2)   .brend-icon {
+    color: #1572B6;
+}
+.accordion__item:nth-child(3)   .brend-icon {
+    color: #790FF1;
+}
+
+.accordion__button:not(.collapsed)  .brend-icon {
+    color: var(--white);
+}
+.accordion-icon {
+    transition: .5s;
+}
+.accordion__button:not(.collapsed) .accordion-icon{
+    transform: rotate(180deg);
+}
+.capabilities-image {
+    width: 100%;
+}
+
+
+/* CAPABILITIES SECTION */
